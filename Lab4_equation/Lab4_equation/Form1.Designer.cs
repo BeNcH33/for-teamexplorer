@@ -34,7 +34,6 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.textBox_IN = new System.Windows.Forms.TextBox();
-            this.button_start = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -88,15 +87,6 @@
             this.textBox_IN.Name = "textBox_IN";
             this.textBox_IN.Size = new System.Drawing.Size(100, 20);
             this.textBox_IN.TabIndex = 4;
-            // 
-            // button_start
-            // 
-            this.button_start.Location = new System.Drawing.Point(141, 120);
-            this.button_start.Name = "button_start";
-            this.button_start.Size = new System.Drawing.Size(75, 23);
-            this.button_start.TabIndex = 5;
-            this.button_start.Text = "Start";
-            this.button_start.UseVisualStyleBackColor = true;
             // 
             // label2
             // 
@@ -156,6 +146,7 @@
             this.checkBox3.Size = new System.Drawing.Size(15, 14);
             this.checkBox3.TabIndex = 14;
             this.checkBox3.UseVisualStyleBackColor = true;
+            this.checkBox3.CheckedChanged += new System.EventHandler(this.checkBox3_CheckedChanged);
             // 
             // Form1
             // 
@@ -168,7 +159,6 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.button_start);
             this.Controls.Add(this.textBox_IN);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
@@ -191,7 +181,6 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.TextBox textBox_IN;
-        private System.Windows.Forms.Button button_start;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
