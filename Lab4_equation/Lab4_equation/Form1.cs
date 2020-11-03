@@ -15,7 +15,7 @@ namespace Lab4_equation
         public Form1()
         {
             InitializeComponent();
-            label1.Text = "Hello world";
+            //label1.Text = "Hello world";
         }
     }
 }
